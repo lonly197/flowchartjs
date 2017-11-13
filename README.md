@@ -1,4 +1,4 @@
-# flowchart
+# flowchartjs
 
 > A Simple FlowChart Libary Base On JsPlumb
 
