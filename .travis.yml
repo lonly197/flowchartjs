@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- 6.11.0
+- 8.1.1
+branches:
+  only:
+    - master
+install:
+  - npm install
+script:
+- npm dll
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: npm
+  email: lonly197@qq.com
+  api_key:
+    secure: TO56uPJ/XJtiWrrNs1v+jKsfoJfgLn/Ta3BPGTwUA1H6aZa6xxoT4f9yI+Oh8ElWQk3Vq9w8EmE3rZqaTkdf8+rEmN1L9B3Mvs9ii9G0PmpOHXT2xwFF4osriq5uB4AZNlvJnzkhJuGGH6PjXVAK8L4sMLr9bc3ZfEGcPswdtuGikcK72V7Gp8ppKPakh2dBBNHxEHWCEPLrDZFEhmLMWVs5Bbx8slurDqtJPmiiPtsZXaKMowChc1hTB7AU88pEdWYA6SkfgaprTmqZrcZHHFotwiWjtiVVPuP8LmR+55bsqDVozPHAVx7hwOSk1xc+XULr+ZRC19F6+Xyv02LZk/HgKzPiMFcUwJI1X1JVZ6PuLoM86nhA5nYrdEwQ1camuyQEv0RD2Jn5GRvrKqMXxPVdtaBuQQ4JfHnwivlHAlw6j0xZJ0HWR3iMKP4j/gT3RAvKLb07lQ2tABaZEkz5qQuRNbb9H2y8SkrEHX2MsNrBXlYfH+MUxvYMdaYidPjnuX2m+7zlwspiVI/BDeKRGvU5brTxWukDeZG167HvaeZ2VQzn992le8LAd5o2uhJAX78ma2m+XBdFnwUXvslkY+WPBygFhV888p5+CMoJokNLf1Yg+HTl9i+YdFZIfM83sWFjGMqIrQ/Eu+zO4IfD4GO+Qdn/HdTmA1GrholcuBg=
+  on:
+    tags: true
+    repo: lonly197/flowchartjs
