@@ -11,7 +11,7 @@ import {
 } from 'jsplumb'
 import {
   cache as Cache
-} from './cache'
+} from '@/utils/cache'
 
 
 /**

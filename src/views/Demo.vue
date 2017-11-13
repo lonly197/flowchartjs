@@ -29,7 +29,7 @@
 </template>
 
 <script>
-  import Chart from '@/utils/flowchart';
+  import Chart from '../../static/js/flowchart'
   import UUID from '@/utils/uuid'
 
   export default {
@@ -111,11 +111,4 @@
 <style scoped>
   @import "../../static/css/index.css";
   @import "../../static/css/flowchart.css";
-  .flow-container {
-    min-height: 700px;
-    background-color: #fff;
-  }
-  .flow-btn {
-    margin: 5px;
-  }
 </style>
