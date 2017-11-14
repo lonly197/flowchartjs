@@ -4,7 +4,7 @@
 
 > A Simple FlowChart Libary Base On JsPlumb
 
-[Demo](./demo/index.html)
+[Demo](https://cdn.rawgit.com/lonly197/flowchartjs/master/demo/index.htmt)
 
 ## Build Setup
 
