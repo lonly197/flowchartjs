@@ -1,3 +1,4 @@
+# Log files
 *.log
 npm-debug.log*
 yarn.lock
@@ -36,12 +37,24 @@ bower_components
 # Optional REPL history
 .node_repl_history
 
+# Node modules
+node_modules
+
+# IDE
 .idea
 .DS_Store
-config/config.local*
-config/sequelize.json
-.nyc_output/
 .setting/
 .vscode/
+
+# Config(Not Need)
+config/config.local*
+config/sequelize.json
+
+# nyc_output
+.nyc_output/
+
+# Document
 docs
+
+# Dump
 dump.rdb
