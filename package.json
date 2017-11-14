@@ -1,9 +1,8 @@
 {
   "name": "flowchartjs",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "A Simple FlowChart Libary Base On JsPlumb",
   "author": "lonly <lonly197@qq.com>",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
