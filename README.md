@@ -30,7 +30,7 @@ import Chart from './lib/js/flowchartjs'
 You can replace your favorite style by modifying the flowchart.css file.
 
 ```CSS
-@import './lib/css/flowchart.ccc'
+@import './lib/css/flowchart.css'
 ```
 
 ## How To Use
