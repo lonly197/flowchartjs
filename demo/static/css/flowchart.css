@@ -1,0 +1,101 @@
+/** ELEMENTS **/
+
+.node {
+  border: .1em dotted #d4e06b;
+  width: 8em;
+  height: 3em;
+  line-height: 2em;
+  background-color: #fff;
+  text-align: center;
+  z-index: 24;
+  cursor: pointer;
+  box-shadow: 2px 2px 19px #aaa;
+  -o-box-shadow: 2px 2px 19px #aaa;
+  -webkit-box-shadow: 2px 2px 19px #aaa;
+  -moz-box-shadow: 2px 2px 19px #aaa;
+  border-radius: .5em;
+  position: absolute;
+  color: #9cc;
+  padding: .5em;
+  -webkit-transition: -webkit-box-shadow .15s ease-in;
+  transition: box-shadow .15s ease-in;
+}
+
+
+/** HOVER EFFECTS **/
+
+.node:hover,
+.node._jsPlumb_source_hover,
+.node._jsPlumb_target_hover {
+  border: 1px solid orange;
+  color: orange;
+}
+
+.node:hover {
+  box-shadow: 2px 2px 19px #444;
+  -o-box-shadow: 2px 2px 19px #444;
+  -webkit-box-shadow: 2px 2px 19px #444;
+  -moz-box-shadow: 2px 2px 19px #fff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.node:hover .remove {
+  display: block;
+}
+
+
+/** ELEMENTS REMOVE **/
+
+.node .remove {
+  display: none;
+}
+
+.node .remove:before {
+  content: 'x';
+  right: -4px;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  color: #fff;
+  background: #333;
+}
+
+.jsplumb-overlay.endpoint-label-lkiarest {
+  font-size: 12px;
+  color: #222;
+}
+.jsplumb-endpoint.jsplumb-endpoint-anchor {
+  cursor: pointer;
+}
+.jsplumb-endpoint.jsplumb-endpoint-anchor.jsplumb-hover,
+.jsplumb-endpoint.jsplumb-endpoint-anchor.jsplumb-drag-hover {
+  background: #f55;
+}
+
+/** Z-INDEX **/
+
+._jsPlumb_connector { z-index:18; }
+._jsPlumb_endpoint { z-index:19; }
+._jsPlumb_overlay { z-index:20; }
+
+.aLabel {
+  background-color:white; 
+  padding:0.4em; 
+  font:12px sans-serif; 
+  color:#444;
+  z-index:21;
+  border:1px dotted gray;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  cursor: pointer;
+}
+.aLabel._jsPlumb_hover {
+  background-color:#5C96BC;
+  color:white;  
+  border:1px solid white;
+}
