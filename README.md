@@ -1,5 +1,7 @@
 # flowchartjs
 
+[![Build Status](https://travis-ci.org/lonly197/cachejs.svg?branch=master)](https://travis-ci.org/lonly197/cachejs)
+
 > A Simple FlowChart Libary Base On JsPlumb
 
 ## Build Setup
