@@ -69,6 +69,9 @@
           })
         }
       },
+      /**
+       * 保存流程图配置信息
+       */
       saveChart() {
         if (this.chart) {
           this.chartConfig = this.chart.toJson()
@@ -77,6 +80,9 @@
           this.$message.error('The FlowChart Has Not Be Initiald')
         }
       },
+      /**
+       * 从配置信息中加载流程图
+       */
       loadChart() {
         if (this.chart) {
           this.chart.clear()
@@ -86,6 +92,9 @@
           this.$message.error('The FlowChart Has Not Be Initiald')
         }
       },
+      /**
+       * 清空流程图
+       */
       clearChart() {
         if (this.chart) {
           this.chart.clear()
