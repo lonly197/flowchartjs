@@ -62,7 +62,7 @@ methods: {
       addNode(name, nodeType = 1) {
         if (this.chart) {
           this.nodes.push(name)
-          // 添加节点
+          // Add Node
           this.chart.addNode(name, 250, 10, {
             class: 'node', // Custom node style
             data: { // Node binding data, can be obtained in the click event
