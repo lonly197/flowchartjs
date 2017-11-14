@@ -24,7 +24,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## Import Libary
 
 ```JavaScript
-import Chart from 'flowchartjs'
+import Chart from './lib/js/flowchartjs'
+```
+
+You can replace your favorite style by modifying the flowchart.css file.
+
+```CSS
+@import './lib/css/flowchart.ccc'
 ```
 
 ## How To Use
