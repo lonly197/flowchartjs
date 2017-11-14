@@ -38,7 +38,10 @@ bower_components
 .node_repl_history
 
 # Node modules
-node_modules
+node_modules/
+
+# NPM build Dist
+dist/
 
 # IDE
 .idea
@@ -49,6 +52,7 @@ node_modules
 # Config(Not Need)
 config/config.local*
 config/sequelize.json
+config/
 
 # nyc_output
 .nyc_output/
