@@ -11,7 +11,7 @@ function resolve(dir) {
 
 module.exports = {
   entry: {
-    flowchart: ['./static/js/flowchart.js', './src/utils/cache.js']
+    flowchart: ['./static/js/flowchart.js', './src/utils/cache.js', 'jsplumb']
   },
   output: {
     path: config.dll.assetsRoot,
