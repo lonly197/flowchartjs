@@ -40,14 +40,14 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('static'), resolve('test')]
-      },
-      {
-        test: require.resolve('jsPlumb'),
-        loaders: [
-          'imports?this=>window',
-          'script'
-        ]
       }
+      // {
+      //   test: require.resolve('jsPlumb'),
+      //   loaders: [
+      //     'imports?this=>window',
+      //     'script'
+      //   ]
+      // }
     ]
   },
   plugins: [
