@@ -5,8 +5,8 @@
  */
 class UUID {
   /**
-       *  获取随机UUID
-       */
+   *  获取随机UUID
+   */
   static get getUUID() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
       const r = Math.random() * 16 | 0
