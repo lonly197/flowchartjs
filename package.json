@@ -1,6 +1,6 @@
 {
   "name": "flowchartjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple FlowChart Libary Base On JsPlumb",
   "author": "lonly <lonly197@qq.com>",
   "scripts": {
